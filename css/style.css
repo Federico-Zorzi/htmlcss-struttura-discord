@@ -66,12 +66,12 @@ footer {
 
 /* logo pagina */
 .logo {
-  flex: 0 1 250px;
+  flex: 0 1 25%;
 }
 
 /* lista di navigazione nell'header */
 .navigation-list {
-  flex: 0 1 500px;
+  flex: 0 1 50%;
 }
 
 .link-list {
@@ -84,7 +84,7 @@ footer {
 
 /* pulsante di login */
 .login-button {
-  flex: 0 1 250px;
+  flex: 0 1 25%;
   text-align: right;
 }
 
@@ -95,13 +95,13 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #010088;
-  height: 500px;
+  height: 400px;
 }
 
 .first-box {
   background-color: #ec81eb;
   border: 2px dashed black;
-  height: 400px;
+  height: 320px;
 }
 
 /* sfondo sezione */
