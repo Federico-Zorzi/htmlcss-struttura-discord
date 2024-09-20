@@ -98,16 +98,18 @@ a {
   height: 400px;
 }
 
+/* sfondo sezione */
 .white-bkg-sections {
   background-color: white;
-  margin: 40px 0px;
+  padding: 40px 0px;
 }
 
 .grey-bkg-sections {
-  background-color: grey;
-  border: 2px dashed black;
+  background-color: #d2d2d2;
+  padding: 40px 0px;
 }
 
+/* direzione card */
 .card {
   display: flex;
   height: 400px;
@@ -119,6 +121,7 @@ a {
   height: 400px;
 }
 
+/* colorazione card */
 .blue-card {
   background-color: #1e8ff7;
   flex-basis: 60%;
@@ -129,4 +132,10 @@ a {
   background-color: #f9bfcb;
   flex-basis: 40%;
   border: 2px dashed black;
+}
+
+.green-card {
+  background-color: #228822;
+  border: 2px dashed black;
+  height: 800px;
 }
