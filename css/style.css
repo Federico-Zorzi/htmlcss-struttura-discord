@@ -178,6 +178,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20px 0px 0px 0px;
   height: 60px;
   background-color: #7efdd2;
 }
