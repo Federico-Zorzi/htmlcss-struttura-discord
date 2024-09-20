@@ -94,25 +94,25 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #010088;
   height: 400px;
+  background-color: #010088;
 }
 
 .first-box {
+  height: 320px;
   background-color: #ec81eb;
   border: 2px dashed black;
-  height: 320px;
 }
 
 /* sfondo sezione */
 .white-bkg-sections {
-  background-color: white;
   padding: 40px 0px;
+  background-color: white;
 }
 
 .grey-bkg-sections {
-  background-color: #d2d2d2;
   padding: 40px 0px;
+  background-color: #d2d2d2;
 }
 
 /* direzione card */
@@ -129,21 +129,21 @@ footer {
 
 /* colorazione card */
 .blue-card {
-  background-color: #1e8ff7;
   flex-basis: 60%;
+  background-color: #1e8ff7;
   border: 2px dashed black;
 }
 
 .pink-card {
-  background-color: #f9bfcb;
   flex-basis: 40%;
+  background-color: #f9bfcb;
   border: 2px dashed black;
 }
 
 .green-card {
+  height: 700px;
   background-color: #228822;
   border: 2px dashed black;
-  height: 700px;
 }
 
 /* FOOTER */
@@ -157,15 +157,15 @@ footer {
 }
 
 .small-card {
+  flex-basis: 35%;
   background-color: #ee8081;
   border: 2px dashed black;
-  flex-basis: 35%;
 }
 
 .big-card {
-  background-color: #1fafa6;
-  flex-basis: 65%;
   display: flex;
+  flex-basis: 65%;
+  background-color: #1fafa6;
 }
 
 .big-card-item {
@@ -178,14 +178,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0px 0px 0px;
   height: 60px;
+  margin: 20px 0px 0px 0px;
   background-color: #7efdd2;
 }
 
 .lower-footer-btn {
+  padding: 5px 10px;
+  text-align: center;
   background-color: #f6b3c2;
   border: 2px dashed black;
-  text-align: center;
-  padding: 5px 10px;
 }
