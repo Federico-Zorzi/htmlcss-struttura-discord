@@ -9,18 +9,6 @@
 
 /* # UTILS */
 
-.debug {
-  background-color: red;
-}
-
-.debug .debug {
-  background-color: orange;
-}
-
-.debug .debug .debug {
-  background-color: yellow;
-}
-
 .container {
   margin: 0 auto;
   padding: 0;
@@ -37,11 +25,25 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 footer {
   background-color: #222629;
 }
+
+/* 
+.debug {
+  background-color: red;
+}
+
+.debug .debug {
+  background-color: orange;
+}
+
+.debug .debug .debug {
+  background-color: yellow;
+} */
 
 /* HEADER */
 
@@ -54,7 +56,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: orange;
+  background-color: #d7a522;
 }
 
 .header-sections {
