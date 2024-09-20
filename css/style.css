@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+footer {
+  background-color: #222629;
+}
+
 /* HEADER */
 
 .upper-header {
@@ -138,4 +142,47 @@ a {
   background-color: #228822;
   border: 2px dashed black;
   height: 800px;
+}
+
+/* FOOTER */
+
+/* sezione foooter per link */
+.footer-card {
+  display: flex;
+  height: 500px;
+  padding: 10px 0px 30px 0px;
+  border-bottom: 1px solid white;
+}
+
+.small-card {
+  background-color: #ee8081;
+  border: 2px dashed black;
+  flex-basis: 35%;
+}
+
+.big-card {
+  background-color: #1fafa6;
+  flex-basis: 65%;
+  display: flex;
+}
+
+.big-card-item {
+  border: 2px dashed white;
+  flex-basis: 25%;
+}
+
+/* sezione footer per pulsanti */
+.footer-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #7efdd2;
+}
+
+.lower-footer-btn {
+  background-color: #f6b3c2;
+  border: 2px dashed black;
+  text-align: center;
+  padding: 5px 10px;
 }
