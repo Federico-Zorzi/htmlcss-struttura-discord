@@ -11,7 +11,6 @@
 
 .debug {
   background-color: red;
-  border: 2px dashed black;
 }
 
 .debug .debug {
@@ -29,11 +28,18 @@
   max-width: 100%;
 }
 
+.second-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 700px;
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
 }
 
-/* header */
+/* HEADER */
 
 .upper-header {
   background-color: #acd6e4;
@@ -74,4 +80,53 @@ a {
 .login-button {
   flex: 0 1 250px;
   text-align: right;
+}
+
+/* MAIN */
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010088;
+  height: 500px;
+}
+
+.first-box {
+  background-color: #ec81eb;
+  border: 2px dashed black;
+  height: 400px;
+}
+
+.white-bkg-sections {
+  background-color: white;
+  margin: 40px 0px;
+}
+
+.grey-bkg-sections {
+  background-color: grey;
+  border: 2px dashed black;
+}
+
+.card {
+  display: flex;
+  height: 400px;
+}
+
+.reverse-card {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 400px;
+}
+
+.blue-card {
+  background-color: #1e8ff7;
+  flex-basis: 60%;
+  border: 2px dashed black;
+}
+
+.pink-card {
+  background-color: #f9bfcb;
+  flex-basis: 40%;
+  border: 2px dashed black;
 }
