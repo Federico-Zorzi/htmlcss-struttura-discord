@@ -1,17 +1,77 @@
 /* reset */
 
 /* da segnare sempre all'inizio del CSS */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* # UTILS */
 
+.debug {
+  background-color: red;
+  border: 2px dashed black;
+}
+
+.debug .debug {
+  background-color: orange;
+}
+
+.debug .debug .debug {
+  background-color: yellow;
+}
+
 .container {
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.upper-header {
+  background-color: #acd6e4;
+  padding: 20px 0px;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+}
+
+.header-sections {
+  padding: 5px 5px;
+  border: 2px dashed black;
+}
+
+/* logo pagina */
+.logo {
+  flex: 0 1 250px;
+}
+
+/* lista di navigazione nell'header */
+.navigation-list {
+  flex: 0 1 500px;
+}
+
+.link-list {
+  text-align: center;
+}
+
+.link-item {
+  display: inline-block;
+}
+
+/* pulsante di login */
+.login-button {
+  flex: 0 1 250px;
+  text-align: right;
+}
